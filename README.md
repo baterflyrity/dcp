@@ -2,7 +2,7 @@
 
 *Deep copy* is a command line utility for coping files and folders via python bypassing system call.
 
-#Features
+# Features
 
 * Copies file to file, file to folder, folder to folder.
 * Records files count, size, time and speed.
