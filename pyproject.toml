@@ -1,0 +1,23 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "dcp"
+author = "baterflyrity"
+author-email = "baterflyrity@yandex.ru"
+home-page = "https://github.com/baterflyrity/dcp"
+classifiers = ["License :: OSI Approved :: MIT License", ]
+requires = [
+    "typer[all] == 0.3.2",
+    'humanize == 3.3.0',
+]
+requires-python = "~=3.8"
+description-file = "README.md"
+keywords = ["cli", "cmd", "copy"]
+
+[tool.flit.metadata.urls]
+Bugtracker = "https://github.com/baterflyrity/dcp/issues"
+
+[tool.flit.scripts]
+dcp = "dcp:main"
