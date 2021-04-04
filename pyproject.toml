@@ -14,7 +14,7 @@ requires = [
 ]
 requires-python = "~=3.8"
 description-file = "README.md"
-keywords = ["cli", "cmd", "copy"]
+keywords = "cli, cmd, copy"
 
 [tool.flit.metadata.urls]
 Bugtracker = "https://github.com/baterflyrity/dcp/issues"
