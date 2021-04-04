@@ -9,6 +9,7 @@
 * Performs smart copying without equal files overwrite.
 * Support dry runs (without real copying).
 * Supports overwrite prompting for each file.
+* Copies empty folders.
 
 # Usage
 
